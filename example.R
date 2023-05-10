@@ -1,9 +1,9 @@
-### APPLICATION ###
+### Application using arthritis data from multgee package ###
 
 data(arthritis)
 head(arthritis)
 
-source(svy_sm.R)
+source("svy_sm.R")
 
 # take the baseline observation for arthritis
 baseoa <- arthritis %>%
