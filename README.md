@@ -1,4 +1,4 @@
-# Wrapper function to produce design-consistent stereotype model estimates 
+# Wrapper function to produce design-consistent standard error estimates from weighted stereotype model
 
 This function can icnlude survey weights in stereotype model fitted with rrvglm() in VGAM package.
 
