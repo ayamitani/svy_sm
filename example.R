@@ -36,6 +36,6 @@ odsdes <- svydesign(id = ~1,
                     weights = ~ invsampwt, 
                     data = ods_sample)
 
-# use above function
+# use function svy_sm()
 wsmout <- svy_sm(-as.numeric(y) ~ sex + age + trt + baseline, design = odsdes)
 wsmout
